@@ -1,5 +1,3 @@
-'use strict'
-
 const addon = require('./build/Release/addon.node')
 
 console.log(`native addon whoami: ${addon.whoami()}`)
